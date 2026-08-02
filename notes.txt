@@ -1,0 +1,96 @@
+==================================
+JENKINS DAY 03 - BUILD AUTOMATION
+==================================
+
+What is a Build?
+-----------------
+A Build is the process of converting source code into an executable or deployable format.
+
+Examples:
+Java → .class files
+C → .exe files
+Python → Execution
+HTML → Validation
+
+What is Build Automation?
+--------------------------
+Build Automation means automatically executing build tasks without manual intervention.
+
+Why is Build Automation Important?
+-----------------------------------
+• Saves time
+• Reduces errors
+• Improves productivity
+• Ensures consistency
+
+Jenkins Build Process
+----------------------
+
+Developer
+      ↓
+GitHub
+      ↓
+Jenkins
+      ↓
+Clone Repository
+      ↓
+Execute Build Commands
+      ↓
+Console Output
+      ↓
+Build Success
+
+Key Terms
+-----------
+
+Build:
+Execution of project tasks.
+
+Workspace:
+Directory where Jenkins stores downloaded files.
+
+Console Output:
+Shows build execution logs.
+
+SCM:
+Source Code Management.
+
+CI:
+Continuous Integration.
+
+Build Commands
+----------------
+
+dir
+
+echo BUILD STARTED
+
+type README.md
+
+echo Build Completed Successfully
+
+Real-Time Example
+------------------
+
+Developer pushes code to GitHub.
+
+Jenkins downloads latest code.
+
+Jenkins executes build commands.
+
+Build result is displayed.
+
+Interview Questions
+--------------------
+
+1. What is a Build?
+2. What is Build Automation?
+3. Why is Jenkins used?
+4. What is Workspace?
+5. What is Console Output?
+6. What is Continuous Integration?
+
+Conclusion
+------------
+
+Successfully learned Build Automation using Jenkins and GitHub.
